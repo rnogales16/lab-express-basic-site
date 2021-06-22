@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  color: red;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+table {
+  width: 100%;
+}
+th, td {
+  width: 15%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 3px;
+}
